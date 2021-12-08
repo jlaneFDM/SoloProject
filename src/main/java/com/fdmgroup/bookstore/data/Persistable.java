@@ -1,5 +1,5 @@
 package com.fdmgroup.bookstore.data;
 
-public interface Persistable {
+public interface Persistable<T>{
 	T save(T t);
 }
